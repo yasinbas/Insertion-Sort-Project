@@ -1,0 +1,15 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+İkili arama ağacı, her düğümün solundaki koldan ulaşılabilecek bütün verilerin düğümün değerinden küçük, sağ kolundan ulaşılabilecek verilerin değerinin o düğümün değerinden büyük olmasını şart koşar.
+
+                            5
+                        3        7 
+                     1   4     6    8
+                   0  2               9
+Root = 5, Sağındaki 7, solundaki 3
+Root = 3, sağındaki 4, solundaki 1
+Root = 1, sağındaki 2, solundaki 0
+Root = 7, sağındaki 8, solundaki 6
+Root = 8, sağındaki 9,
+
+
